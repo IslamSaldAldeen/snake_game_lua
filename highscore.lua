@@ -1,5 +1,8 @@
 -- High score save/load compatible with LÖVE (LuaJIT / Lua 5.1).
 -- Manual close; no Lua 5.4 syntax.
+-- Demonstration of a modern Lua 5.4 feature:
+-- "to-be-closed" variables (<close>) automatically close resources
+-- such as files when they go out of scope, even if an error occurs.
 
 local HighScore = {}
 
