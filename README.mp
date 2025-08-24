@@ -9,3 +9,8 @@
 We demonstrate **Lua 5.4 “to-be-closed” variables** in `highscore54.lua`:
 ```lua
 local file <close> = io.open("highscore.txt","w")
+## Modern Lua feature used (brief)
+
+We use a **Lua 5.4 "to-be-closed" variable** in `highscore54.lua`:
+```lua
+local file <close> = io.open("highscore.txt","w")
