@@ -1,0 +1,10 @@
+﻿# Love2D / local files
+highscore.txt
+*.love
+
+# VS Code
+.vscode/
+
+# OS junk
+.DS_Store
+Thumbs.db
